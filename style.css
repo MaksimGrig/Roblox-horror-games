@@ -1,0 +1,73 @@
+body{
+margin: 0;
+}
+h1{
+    padding: 10px;
+    margin: 0px;
+}
+
+.text{
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    height: 200px; /*visota bloka*/
+    background-color: hsl(216, 80%, 35%); /*cbet fona*/
+    color: rgb(175, 212, 245);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 5px 20px black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm1O6s9FTfk8Nc2SLXR2QjELsWEPVmK0Fw2Q&usqp=CAU)
+    
+}
+
+main{
+    height: 1500px;
+    background-color: rgb(221, 102, 102);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    text-shadow: 1px 5px 20px black;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 
+    
+}
+
+.left{
+    width: 50%;
+    font-size: 30px;
+    text-align: justify;
+    }
+
+.right{
+        width: 50%;
+        font-size: 50px;
+        text-align: center;
+    }
+footer{
+    height: 200px;
+    background-color: rgb(97, 219, 80);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 5px 20px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQRgKtrPjuUME9zXTt8OgwfNqrLL7mrAPKTg&usqp=CAU);
+}
+
+.social img{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
